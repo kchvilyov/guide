@@ -1,0 +1,11 @@
+.verticalMenu, .horizontalMenu {
+	display: none; 
+ 	width:0px;
+ 	height:0px;
+}
+.horizontalMenuArrows {
+	display: none; 
+}
+.counters {
+	display: none; 
+}

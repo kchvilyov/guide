@@ -1,0 +1,198 @@
+* {
+	margin: 0 auto;
+/*
+    margin: -2px -2px 0 0;
+    _margin-top: -3px;
+    _margin-left: -3px;
+    _margin-right: -3px;
+	_margin-bottom: -30px; /* IE6 */
+    padding: 0px;
+    border: 0px;
+    border-spacing: 0px;
+	vertical-align: top;
+	text-align: center;
+}
+h1 a:LINK, h1 a:ACTIVE, h1 a:VISITED {
+	color:rgb(195, 255, 195);
+}
+a {
+	font-weight:bold;
+}
+a:LINK {
+	color:#006060;
+}
+a:ACTIVE {
+	color:#007070;
+}
+a:VISITED {
+	color:#008080;
+}
+A IMG {
+ border: none;
+}
+p {
+  text-indent: 1.5em;
+  margin-left: 0.5em;
+  text-align: left;
+}
+li {
+  text-align: left;
+}
+ul, ol {
+  text-indent: 1.5em;
+  margin-left: 1.5em;
+}
+html,body{
+	font-size:medium;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color: rgb(251, 251, 234);
+	color:black;
+}
+.mainPics{
+	width:1000px;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.mainPics h1 {
+	color:rgb(195, 255, 195);
+	background-image: url('../images/sky.jpg');
+}
+.mainPics h1 img {
+	height: 100;
+	float: right;
+}
+.mainPics h2 {
+	color:rgb(105, 195, 105);
+	border: 0px solid;
+	margin: 0 auto;
+    border-spacing: 0px;
+    text-align: center;
+}
+.mainPics table {
+	margin-left:0; 
+}
+.mainTextField{
+	width:800px;
+	text-align: left;
+}
+.mainTextField h1 {
+	color:rgb(195, 255, 195);
+	background-image: url('../images/sky.jpg');
+	text-align: center;
+}
+.mainTextField p {
+	text-align: left;
+}
+.mainTextField h1 img {
+	height: 100;
+	float: right;
+}
+.verticalMenu{
+ 	width:20px;
+ 	vertical-align: top;
+}
+.horizontalMenu table, .verticalMenu table {
+	background-image:url('../images/water.jpg');
+	border: 3px solid;
+	margin: auto;
+    border-color: #808080;
+    border-spacing: 2px;
+}
+.crimeanGideMenu{
+ 	width:1120px;
+ 	height:1120px;
+	background-image:url('../images/guide.Crimean.us.jpg');
+}
+.crimeanGideMenu a:LINK {
+	color:rgb(145, 205, 145);
+}
+.crimeanGideMenu a:FOCUS {
+	color:#007070;
+}
+.crimeanGideMenu a:VISITED {
+	color:rgb(165, 225, 165);
+}
+.crimeanGideMenu td {
+	color:rgb(195, 255, 195);
+	font-weight:bold;
+	padding-top: 5px;
+	padding-right: 30px;
+}
+.framedTable {
+	text-align: center;
+	width: 100%;
+}
+.framedTable table {
+	border: 2px solid;
+    border-color: #808080;
+    border-spacing: 1px;
+	width: 100%;
+    margin: 0 1;
+}
+.framedTable td {
+	border: 1px solid;
+    border-color: #606060 #C0C0C0 #A0A0A0 #505050;
+    padding: 1px;
+	text-align: center;
+}
+.unFramedTable table {
+	border: 0;
+    border-spacing: 0;
+	width: 100%;
+    margin: 0;
+}
+.unFramedTable td {
+	border: 0;
+    padding: 0;
+	text-align: center;
+}
+.horizontalMenu td, .verticalMenu td {
+	border: 1px solid;
+    border-color: #606060 #C0C0C0 #A0A0A0 #505050;
+    padding: 4px;
+	text-align: center;
+}
+.horizontalMenuArrows td{
+    padding: 0 2;
+}
+.horizontalMenu{
+ 	vertical-align: top;
+}
+.horizontalMenu table {
+	width: 100%;
+    margin: 1 0;
+}
+.miniTitle {
+	height: 40px;
+	text-align: center;
+	}
+.miniTitleVertical {
+	height: 40px;
+	text-align: center;
+	width: 40px;
+	}
+.big	{
+	font-weight:bold;
+	font-size: larger;
+	}
+.verticalHidden{
+	display: none; 
+ 	width:0px;
+}
+.bottomText {
+	padding: 0 3;
+}
+.bottomText td {
+	text-align: left;
+	padding: 7px;
+	border: 2 inset;
+}
+.counters {
+	text-align: left;
+}
+.txt3 {
+	text-align: center;
+	text-transform: capitalize;
+	color: green;
+}

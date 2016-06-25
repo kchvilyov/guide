@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: http://guide.crimean.us/sitemap_crimean.xml
+Host: crimean.us
