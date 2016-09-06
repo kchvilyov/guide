@@ -97,10 +97,14 @@
 	<li>прохождение маршрута, показ интересных объектов по ходу следования и рассказ о них.
 	</li>
 	</ul>
-	<p class="big">Оплата со всей группы до 20 человек <script type="text/javascript">
+	<p class="big">Оплата со всей группы до <script type="text/javascript">
+			document.write(valutaText(groupMembers));
+			</script> человек <script type="text/javascript">
 			document.write(valutaText(rubGuidePerDay));
-		</script> в день. Таким образом чем больше участников в Вашей группе, тем дешевле с каждого. И для группы от 20 участников цена составит всего <script type="text/javascript">
-			document.write(valutaText(rubGuidePerDay/20));
+		</script> в день. Таким образом чем больше участников в Вашей группе, тем дешевле с каждого. И для группы от <script type="text/javascript">
+			document.write(valutaText(groupMembers));
+		</script> участников цена составит всего <script type="text/javascript">
+			document.write(valutaText(rubGuidePerDay/groupMembers));
 		</script> в день с человека.
 	</p>
 	<p class="big">При этом группа идет со своим снаряжением, оплачивает себе и гиду(проводнику) транспорт от города Симферополя и питание, а в случае необходимости проход и стоянку на платных территориях.

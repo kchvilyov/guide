@@ -6,8 +6,8 @@ var grn = 'грн';
 var rubPerEuro = 71;	// 75; 46.0;
 var rubPerUsd = 62;		// 65; 34.0;
 var rubPerHryvnia = 2.4;	// 2.2; 2.8;
-var rubGuidePerDay = 4000;	// 2000;;
-var rubGuidePerDayAdd = rubGuidePerDay / 20;
+var rubGuidePerDay = 3000;	// 4000;	// 2000;;
+var groupMembers = 15;	//;;
 var rubFoodPerDay = 400;	// 300;;
 
 function rubFromEuro(euroSum)
